@@ -1,41 +1,48 @@
-body {
-            background-color: #f3f4f6;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        .header-section {
-            margin-bottom: 3rem;
-        }
-        .search-card {
-            border-radius: 1rem;
-            border: 1px solid #dee2e6;
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-        }
-        .transcript-card {
-            border-radius: 1.25rem;
-            overflow: hidden;
-            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
-            border: 2px solid #e9ecef;
-        }
-        .transcript-header {
-            background-color: #212529;
-            color: white;
-            padding: 2rem;
-        }
-        .stat-box {
-            background-color: white;
-            padding: 1rem;
-            border-radius: 0.75rem;
-            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-        }
-        .sem-card {
-            background-color: #f8f9fa;
-            border: 1px solid #dee2e6;
-            border-radius: 0.5rem;
-            padding: 1rem;
-        }
-        .status-badge {
-            padding: 0.25rem 1rem;
-            border-radius: 50rem;
-            font-weight: 800;
-            font-size: 0.875rem;
-        }
+/* body {
+    background-color: #f3f4f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-section {
+    margin-bottom: 3rem;
+}
+
+.search-card {
+    border-radius: 1rem;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.transcript-card {
+    border-radius: 1.25rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    border: 2px solid #e9ecef;
+}
+
+.transcript-header {
+    background-color: #212529;
+    color: white;
+    padding: 2rem;
+}
+
+.stat-box {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.sem-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.status-badge {
+    padding: 0.25rem 1rem;
+    border-radius: 50rem;
+    font-weight: 800;
+    font-size: 0.875rem;
+} */
