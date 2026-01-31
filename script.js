@@ -56,7 +56,7 @@ const calculateSemStats = (marksObj) => {
         total += m;
         count++;
     });
-
+    
     const percentage = (total / (count * 100)) * 100;
     return { total, percentage, grade: getGrade(percentage), count };
 };
