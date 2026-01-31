@@ -263,7 +263,6 @@ window.toggleDetails = () => {
     const details = document.getElementById('semesterDetails');
     const btn = document.getElementById('toggleBtn');
 
-    // Replaced .contains('d-none') with indexOf check on className
     if (details.className.indexOf('d-none') !== -1) {
         details.className = details.className.replace('d-none', '').trim();
         btn.innerText = "Hide Details";
