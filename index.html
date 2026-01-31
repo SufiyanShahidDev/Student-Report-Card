@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Result Management System</title>
     <!-- Replacing Tailwind with Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body class="py-4 py-md-5">
 
     <div class="container">
@@ -17,11 +21,13 @@
         </header>
 
         <!-- Search Bar -->
-        <div class="card search-card mx-auto mb-5" style="max-width: 700px;">
+        <!-- <div class="card search-card mx-auto mb-5" style="max-width: 700px;">
             <div class="card-body p-4 p-md-5">
-                <label for="studentIdInput" class="form-label small fw-bold text-uppercase tracking-wider text-secondary">Verification Required</label>
+                <label for="studentIdInput"
+                    class="form-label small fw-bold text-uppercase tracking-wider text-secondary">Verification
+                    Required</label>
                 <div class="d-flex flex-column flex-md-row gap-3">
-                    <input type="text" id="studentIdInput" placeholder="Enter Student ID (e.g., 1667524)" 
+                    <input type="text" id="studentIdInput" placeholder="Enter Student ID (e.g., 1667524)"
                         class="form-control form-control-lg font-monospace border-2">
                     <button id="searchBtn" class="btn btn-primary btn-lg px-4 fw-bold">
                         View Result
@@ -29,18 +35,20 @@
                 </div>
                 <p class="small text-muted mt-3 mb-0">Security Note: Results are generated only for matching IDs.</p>
             </div>
-        </div>
+        </div> -->
 
         <!-- Main Container -->
         <div id="student-container">
             <div id="initial-state" class="text-center py-5">
-                <div class="bg-secondary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                <div class="bg-secondary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                    style="width: 80px; height: 80px;">
 
                 </div>
                 <p class="text-secondary font-italic">Please enter a valid Student ID to display marks.</p>
             </div>
         </div>
     </div>
-    
+
 </body>
+
 </html>
