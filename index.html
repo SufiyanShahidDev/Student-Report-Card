@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,11 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body class="py-4 py-md-5">
 
     <div class="container">
@@ -22,9 +26,11 @@
         <!-- Search Bar -->
         <div class="card search-card mx-auto mb-5" style="max-width: 700px;">
             <div class="card-body p-4 p-md-5">
-                <label for="studentIdInput" class="form-label small fw-bold text-uppercase tracking-wider text-secondary">Verification Required</label>
+                <label for="studentIdInput"
+                    class="form-label small fw-bold text-uppercase tracking-wider text-secondary">Verification
+                    Required</label>
                 <div class="d-flex flex-column flex-md-row gap-3">
-                    <input type="text" id="studentIdInput" placeholder="Enter Student ID (e.g., 1667524)" 
+                    <input type="text" id="studentIdInput" placeholder="Enter Student ID (e.g., 1667524)"
                         class="form-control form-control-lg font-monospace border-2">
                     <button id="searchBtn" class="btn btn-primary btn-lg px-4 fw-bold">
                         View Result
@@ -37,7 +43,8 @@
         <!-- Main Container -->
         <div id="student-container">
             <div id="initial-state" class="text-center py-5">
-                <div class="bg-secondary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                <div class="bg-secondary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                    style="width: 80px; height: 80px;">
                     <i class="fa-solid fa-lock text-secondary"></i>
                 </div>
                 <p class="text-secondary font-italic">Please enter a valid Student ID to display marks.</p>
@@ -47,4 +54,5 @@
 
 </body>
 <script src="./script.js"></script>
+
 </html>
