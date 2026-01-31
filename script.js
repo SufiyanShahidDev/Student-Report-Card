@@ -193,8 +193,8 @@ const renderResults = () => {
         const isPass = overallPercent >= 40 && !hasFailedAny;
 
         finalHTML = `
-                    <div class="card transcript-card border-0 animate-in">
-                        <div class="transcript-header d-flex flex-column flex-md-row justify-content-between align-items-center gap-4">
+                    <div class="card report-card border-0 animate-in">
+                        <div class="report-header d-flex flex-column flex-md-row justify-content-between align-items-center gap-4">
                             <div>
                                 <div class="text-info small fw-bold text-uppercase mb-1">Official Transcript</div>
                                 <h2 class="h1 fw-bold mb-1">${student.name}</h2>

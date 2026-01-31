@@ -13,14 +13,14 @@ body {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.transcript-card {
+.report-card {
     border-radius: 1.25rem;
     overflow: hidden;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
     border: 2px solid #e9ecef;
 }
 
-.transcript-header {
+.report-header {
     background-color: #212529;
     color: white;
     padding: 2rem;
