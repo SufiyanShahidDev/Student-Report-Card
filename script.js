@@ -215,7 +215,7 @@ const renderResults = () => {
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="stat-box h-100 d-flex flex-column justify-content-center">
-                                        <p class="text-secondary small fw-bold mb-1">AGGREGATE %</p>
+                                        <p class="text-secondary small fw-bold mb-1">Percentage %</p>
                                         <p class="h4 fw-black text-dark mb-0">${overallPercent.toFixed(2)}%</p>
                                     </div>
                                 </div>
